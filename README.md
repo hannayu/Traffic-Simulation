@@ -1,2 +1,4 @@
 # Traffic-Simulation
-Final project for MATH-UA 395 (Special Topics: Modeling and Simulation in Science, Engineering, and Economics), taught by Professor Charles Peskin in Fall 2020. See Steering_Algorithms_in_Traffic.pdf for the paper.
+Building on a previous agent-based simulation of traffic in Matlab, I add: 1) a directed graph representing our system of roads, and 2) a steering method based on the shortest path function of directed graphs. I examine the effect of steering method on traffic performance and find that for very long run times, steering based solely on driving in the directing closest towards the destination yields poor overall traffic performance. Completely random steering performs slightly better, followed by steering based on a combination of the first method and random steering, and finally steering based on the shortest path, which performs the best. See Steering_Algorithms_in_Traffic.pdf for the paper.
+
+This was the final project for MATH-UA 395 (Special Topics: Modeling and Simulation in Science, Engineering, and Economics), taught by Professor Charles Peskin in Fall 2020. 
